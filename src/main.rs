@@ -1,4 +1,5 @@
 // this program was a mistake. what am i doing
+// DONT WORRY TWIN i'll make it significantly worse soon
 use rand::Rng;
 
 use clap::Parser;
@@ -39,7 +40,7 @@ fn main() {
     }
 
     if rng.gen_range(0..10) >= 5 {
-        print!(":3");
+        print!(""); // will this work at all and also how do i compile rust code im very scared and confused please help me
     }
     println!();
 }
